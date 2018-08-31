@@ -9,9 +9,8 @@ with open("index.html", "w", 1024, 'utf-8') as html_file:
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta charset="utf-8">
 <title>CSN eksāmens</title>    
-<link rel="stylesheet" href="http://csn.vtua.gov.lv/css/csn.css"/>
-<script type="text/javascript" src="http://csn.vtua.gov.lv/js/function.js"></script>
-<script type="text/javascript" src="http://csn.vtua.gov.lv/js/jquery-1.8.2.js"></script>
+<link rel="stylesheet" href="css/csn.css"/>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <style>
 .image_zoom {
     width: 100% !important;
