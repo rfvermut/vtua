@@ -19,7 +19,8 @@ headers = {
     'DNT': '1',
 }
 
-for exam_id in range(224692, 324692):
+# for exam_id in range(324692, 328928):
+for exam_id in range(328500, 328928):
     data = [
         ('action', 'questionList'),
         ('examid', exam_id),

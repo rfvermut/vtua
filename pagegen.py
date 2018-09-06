@@ -30,7 +30,8 @@ with open("index.html", "w", 1024, 'utf-8') as html_file:
             html_file.write('''
                 <img height=50% onclick="$(this).toggleClass('image_zoom');" src="{img}"; cursor: default;"/>
 <div id="ex_left">
-    <img id="ex_pic_container" src="{img}"; cursor: default;"/>
+    <div id="ex_pic_container"
+         style="background-image: url({img}); cursor: default;"></div>
     <div id="ex_text_container">
         <div id="test_text"><small>[{file}]</small> {text}</div>
     </div>
